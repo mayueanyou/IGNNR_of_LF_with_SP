@@ -59,7 +59,13 @@ pip3 install -r requirements.txt
 To train our model with the parameters setup we provide, simply run
 
 ```
-python3 train.py
+python3 train.py seed num_rounds node_emb_dim
 ```
+
+All of the parameters should be int data.
+
+seed is to generate different trainning set.
+
+num_rounds and node_emb_dim are two parameters for the model.
 
 ## Result
