@@ -9,6 +9,8 @@ This the repository for CIS700 Throem Proving Project.
 
 - [Dataset](#Dataset)
 
+- [Environment_Setup](#Environment_Setup)
+
 - [Experiment](#Experiment)
 
 - [Result](#Result)
@@ -33,6 +35,23 @@ Then to prepocess the data, please run the command to transfer the data into the
 
 ```
 python3 process_data.py
+```
+## Environment_Setup
+
+Our model runs in python3 and needs the following packages.
+
+- torch
+- numpy
+- networkx
+- graphviz
+- allennlp
+- sentencepiece
+- penman
+
+TO install the package, run
+
+```
+pip3 install -r requirements.txt
 ```
 
 ## Experiment
