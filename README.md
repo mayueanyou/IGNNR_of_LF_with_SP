@@ -23,12 +23,24 @@ Qinwei Huang, Xiao Yi, Yue Ma, Zifan Wang
 
 The dataset we use for this project is HolStep. It could be download from the offcial [website](http://cl-informatik.uibk.ac.at/cek/holstep/)
 
-To train or test our model please download the HolStep.tgz file into the datasets folder and run the following code to unzip it
+To train or test our model, please download the HolStep.tgz file into the datasets folder and run the following code to unzip it.
 
 ```
 tar -xvzf ./datasets/holstep.tgz -C ./datasets/
 ```
 
+Then to prepocess the data, please run the command to transfer the data into the data folder.
+
+```
+python3 process_data.py
+```
+
 ## Experiment
+
+To train our model with the parameters setup we provide, simply run
+
+```
+python3 train.py
+```
 
 ## Result
