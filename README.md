@@ -48,7 +48,7 @@ Our model runs in python3 and needs the following packages.
 - sentencepiece
 - penman
 
-TO install the package, run
+To install the package, run
 
 ```
 pip3 install -r requirements.txt
