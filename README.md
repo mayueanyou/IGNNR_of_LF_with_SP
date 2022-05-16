@@ -69,3 +69,16 @@ seed is to generate different trainning set.
 num_rounds and node_emb_dim are two parameters for the model.
 
 ## Result
+
+We have done 4 experiments. Each of them we test with three random seeds represented in three different color.
+
+|num_rounds:0 node_emb_dim: 16 | num_rounds:3 node_emb_dim: 16 |
+|-|-|
+|<img src="https://github.com/mayueanyou/IGNNR_of_LF_with_SP/blob/main/experiments/0_16.png">|<img src="https://github.com/mayueanyou/IGNNR_of_LF_with_SP/blob/main/experiments/3_16.png">|
+
+|num_rounds:0 node_emb_dim: 32|num_rounds:3 node_emb_dim: 32|
+|-|-|
+|<img src="https://github.com/mayueanyou/IGNNR_of_LF_with_SP/blob/main/experiments/0_32.png">|<img src="https://github.com/mayueanyou/IGNNR_of_LF_with_SP/blob/main/experiments/3_32.png">|
+
+
+
